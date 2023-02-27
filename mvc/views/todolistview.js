@@ -15,7 +15,7 @@ export default class TodoListView
     show(todos)
     {
         //ff leegooien?
-        this.list.innerHTML = "";
+        this.list.innerHTML = ""; //??
 
         todos.forEach(todo => {
             let item = document.createElement('li');

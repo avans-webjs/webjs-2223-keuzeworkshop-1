@@ -28,13 +28,11 @@ class AppComponent extends HTMLElement
         
         todolist.addEventListener('onStatusChange', (event) => {
             let todoEl = event.target;
-            todolist.removeTodo(todoEl);
             completedlist.addTodo(todoEl);
         })
 
         completedlist.addEventListener('onStatusChange', (event) => {
             let todoEl = event.target;
-            completedlist.removeTodo(todoEl);
             todolist.addTodo(todoEl);
         })
 

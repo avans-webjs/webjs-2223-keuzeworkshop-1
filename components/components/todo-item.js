@@ -28,7 +28,6 @@ class TodoItemComponent extends HTMLElement
             let status = this.getAttribute('status');
             this.setAttribute('status', status == 'complete' ? 'todo' : 'complete'  );
         })
-
      
 
     }
