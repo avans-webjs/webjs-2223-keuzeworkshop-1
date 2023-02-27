@@ -1,0 +1,22 @@
+# Gebruikte bronnen tijdens de workshop
+
+https://javascript.info/web-components
+
+https://www.thinktecture.com/en/pwa/making-of-paint-js-overview-web-components/
+
+
+# Eisen aan web componnet
+
+A web component must be a custom HTML element.
+A web component should contain all the logic to function itself.
+A web component must not affect other components and other parts of the application unintentionally.
+A web component must encapsulate itself to avoid any collisions between outside JavaScript or CSS.
+Multiple instances of the same web component must not interfere with each other.
+
+https://medium.com/jspoint/the-anatomy-of-web-components-d6afedb81b37
+
+
+# Lijst van herbruikbare webcomponents
+
+https://www.webcomponents.org/
+

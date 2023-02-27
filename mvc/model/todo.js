@@ -1,0 +1,5 @@
+class Todo
+{
+    //repo?
+    //localstorage??
+}
